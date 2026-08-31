@@ -1,5 +1,5 @@
-number = 1
+count = 0
+while count < 5:
+    print(count)
+    count += 1     # without this, the loop would never end
 
-while number <= 5:
-    print(number)
-    number += 1
