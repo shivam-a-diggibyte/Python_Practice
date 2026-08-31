@@ -9,16 +9,20 @@ This repo is my daily practice log. Each day (or session), new code is added und
 ## 🗂️ Repository Structure
 
 ```
-Python_Practice/
-├── src/
-│   └── python_practice-Shivam/
-│       ├── python_basics/
-│       │   └── ...              # variables, data types, operators, I/O, loops, functions, etc.
-│       │
-│       └── conditional_statements/
-│           └── ...              # if / elif / else, nested conditions, match-case, etc.
+Python_Practice (Repository)
 │
-└── README.md
+├── README.md
+│
+└── src
+    │
+    ├── python_basics
+    │   └── Python code files
+    │
+    ├── conditional_statements
+    │   └── Python code files
+    │
+    └── loops
+        └── Python code files
 ```
 
 As I progress, new topic folders will be added under `src/python_practice-Shivam/` (e.g. `loops`, `functions`, `data_structures`, `oop`, `file_handling`, etc.), following the same pattern.
