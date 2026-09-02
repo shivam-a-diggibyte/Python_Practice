@@ -1,6 +1,6 @@
 # Python Practice
 
-A personal repository for daily Python learning and practice. It contains scripts and small exercises written while studying core Python concepts, organized by topic for easy reference and review.
+A training repository for daily Python learning and practice. It contains scripts and small exercises written while studying core Python concepts, organized by topic for easy reference and review.
 
 ## About
 
@@ -41,6 +41,7 @@ Python_Practice/
 ### Prerequisites
 
 - Python 3.8 or later installed on your system
+- Use VS Code with python extension
 
 ### Clone the Repository
 
