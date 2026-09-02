@@ -80,5 +80,5 @@ python variables.py
 
 ## Author
 
-**Shivam**
-Maintained as part of ongoing, self-directed Python practice.
+**shivam-a-diggibyte**
+Maintained as part of ongoing, Python training.
