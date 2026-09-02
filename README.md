@@ -1,69 +1,83 @@
-# Python_Practice
+# Python Practice
 
-A personal repository to track my **daily Python training** — every script, exercise, and mini-project I write while learning Python, organized by topic.
+A personal repository for daily Python learning and practice. It contains scripts and small exercises written while studying core Python concepts, organized by topic for easy reference and review.
 
 ## About
 
-This repo is my daily practice log. Each day (or session), new code is added under a relevant topic folder inside `src/`, so progress is easy to track and revisit.
+This repository serves as an ongoing practice log. Each script focuses on a specific concept or exercise, and files are grouped into topic-based folders under `src/`. The goal is to build a structured, easily navigable record of progress — from basic syntax to object-oriented programming and reusable utility modules.
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
-Python_Practice (Repository)
-│
+Python_Practice/
 ├── README.md
-│
-└── src
-    │
-    ├── python_basics
-    │   └── Python code files
-    │
-    ├── conditional_statements
-    │   └── Python code files
-    │
-    └── loops
-        └── Python code files
+└── src/
+    ├── Python_Basics/          # Syntax, variables, data types, strings, type conversion
+    ├── Conditional_Statements/ # if, if-else, if-elif-else, decision-making exercises
+    ├── Loops/                  # for and while loops, break/continue, loop-based exercises
+    ├── Functions/              # Function basics, parameters, args/kwargs, lambda, map/filter/reduce
+    ├── Data_Structures/        # Lists, tuples, sets, dictionaries, and their operations
+    ├── OOPS/                   # Classes, objects, attributes, and core OOP concepts
+    ├── Modules/                # Built-in modules (math, random, datetime) and custom modules
+    ├── Utilities_Package/      # Reusable utility scripts (e.g. calculator, string helpers)
+    └── main.py                 # Entry-point script
 ```
 
-As I progress, new topic folders will be added under `src/python_practice-Shivam/` (e.g. `loops`, `functions`, `data_structures`, `oop`, `file_handling`, etc.), following the same pattern.
-
-## 📚 Topics Covered So Far
+## Topics Covered
 
 | Folder | Description |
 |---|---|
-| `python_basics` | Fundamentals — variables, data types, operators, input/output, basic syntax |
-| `conditional_statements` | Decision-making — `if`, `elif`, `else`, nested and chained conditions |
+| `Python_Basics` | Fundamentals — variables, data types, operators, type conversion, strings, syntax |
+| `Conditional_Statements` | Decision-making using `if`, `elif`, and `else`, including nested conditions |
+| `Loops` | Iteration with `for` and `while` loops, `break`/`continue`, and related exercises |
+| `Functions` | Function definitions, parameters, arguments, `*args`/`**kwargs`, scope, and lambda functions |
+| `Data_Structures` | Lists, tuples, sets, and dictionaries, along with common operations on each |
+| `OOPS` | Object-oriented programming basics — classes, objects, and attributes |
+| `Modules` | Working with standard library modules and writing custom modules |
+| `Utilities_Package` | Small, reusable utility scripts packaged for import and reuse |
 
-## ▶️ How to Run
+## Getting Started
 
-Each file is a standalone Python script. Clone the repo and run any file directly:
+### Prerequisites
+
+- Python 3.8 or later installed on your system
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Python_Practice.git
-cd Python_Practice/src/python_practice-Shivam/python_basics
-python <filename>.py
+git clone https://github.com/shivam-a-diggibyte/Python_Practice.git
+cd Python_Practice
+```
+
+### Running a Script
+
+Each file is a standalone, self-contained script. Navigate to the relevant topic folder and run the file directly:
+
+```bash
+cd src/Python_Basics
+python variables.py
 ```
 
 ## Purpose
 
-- Build daily consistency with Python
-- Keep a clean, organized record of practice by topic
-- Track progress over time from basics to advanced concepts
+- Build consistency through regular, hands-on Python practice
+- Maintain a clean, well-organized record of concepts learned
+- Track progress over time, from fundamentals to more advanced topics
 
-## 🚀 Roadmap
+## Roadmap
 
 - [x] Python Basics
 - [x] Conditional Statements
-- [ ] Loops
-- [ ] Functions
-- [ ] Data Structures (Lists, Tuples, Dicts, Sets)
-- [ ] String Manipulation
+- [x] Loops
+- [x] Functions
+- [x] Data Structures (Lists, Tuples, Dictionaries, Sets)
+- [x] Modules and Packages
+- [x] OOP Concepts
 - [ ] File Handling
-- [ ] OOP Concepts
-- [ ] Error & Exception Handling
-- [ ] Modules & Packages
+- [ ] Error and Exception Handling
+- [ ] Advanced OOP (Inheritance, Polymorphism, Encapsulation)
 
-## 👤 Author
+## Author
 
 **Shivam**
-Daily Python practice — one script at a time. 
+Maintained as part of ongoing, self-directed Python practice.
