@@ -1,8 +1,8 @@
-# 🐍 Python_Practice
+# Python_Practice
 
 A personal repository to track my **daily Python training** — every script, exercise, and mini-project I write while learning Python, organized by topic.
 
-## 📌 About
+## About
 
 This repo is my daily practice log. Each day (or session), new code is added under a relevant topic folder inside `src/`, so progress is easy to track and revisit.
 
@@ -44,7 +44,7 @@ cd Python_Practice/src/python_practice-Shivam/python_basics
 python <filename>.py
 ```
 
-## 🎯 Purpose
+## Purpose
 
 - Build daily consistency with Python
 - Keep a clean, organized record of practice by topic
@@ -66,4 +66,4 @@ python <filename>.py
 ## 👤 Author
 
 **Shivam**
-Daily Python practice — one script at a time. 💻
+Daily Python practice — one script at a time. 
