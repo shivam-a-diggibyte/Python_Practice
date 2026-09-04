@@ -1,18 +1,20 @@
-def log_function(func):
+# Basic generator function
+def simple_generator():
+    yield 1
+    yield 2
+    yield 3
 
-    def wrapper():
-        print(f"Calling function: {func.__name__}")
+result=simple_generator()
+print(result)
+print(next(result))
 
-        func()
+# Practical generator for even numbers 
+def even_numbers(limit):
 
-        print(f"Finished function: {func.__name__}")
+    for number in range(1, limit + 1):
 
-    return wrapper
+        if number % 2 == 0:
+            yield number
 
-
-@log_function
-def greet():
-    print("Hello Shivam!")
-
-
-greet()
+for number in even_numbers(10):
+    print(number)
