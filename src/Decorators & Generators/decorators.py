@@ -1,47 +1,33 @@
-def log_function(func):
-
-    def wrapper():
-        print(f"Calling function: {func.__name__}") # tells the name of the function being called
-
-        func()
-
-        print(f"Finished function: {func.__name__}")
-
-    return wrapper
+# decorator for measuring time.
+import time
+from functools import wraps
 
 
-@log_function
-def greet():
-    print("Hello Shivam!")
+def measure_time(function):
 
+    @wraps(function) # to protect the metadata of the original function
+    def wrapper(*args, **kwargs): # wrapper
+        start = time.time()
 
-greet()
+        result = function(*args, **kwargs)
 
+        end = time.time()
 
-def my_decorator(func):
+        print(f"Execution time: {end - start:.4f} seconds")
 
-    def wrapper(*args, **kwargs):
-        print(f"Calling {func.__name__}")
-        result = func(*args, **kwargs)
-        print(f"{func.__name__} finished")
         return result
+
     return wrapper
 
-@my_decorator
-def greet(name):
-    print(f"Hello, {name}!")
 
-greet("Shivam")
+@measure_time
+def calculate_sum():
+    total = 0
 
+    for number in range(1_000_000):
+        total += number
 
-
-
-
-
+    return total
 
 
-
-
-
-
-
+print(calculate_sum())
