@@ -13,13 +13,14 @@ class employee(ABC):
         print(f"Hello, my name is: {self.name} and my salary is: {self.salary}")
 
 class developer(employee):
-    super().__init__(name,salary)
+    def__init__(name,salary)
+    
 
     def bonus(self):
         return self.salary*0.1
 
 class manager(employee):
-    super().__init__(name,salary)
+    def__init__(name,salary)
 
     def bonus(self):
         return self.salary*0.3
