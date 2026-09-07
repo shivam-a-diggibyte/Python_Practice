@@ -18,13 +18,8 @@ class BankAccount:
     def show_balance(self):
         print(f"Current balance: ₹{self.balance}")
 
-
 account = BankAccount("Shivam", 10000)
-
 account.show_balance()
-
 account.deposit(5000)
-
 account.withdraw(3000)
-
 account.show_balance()
