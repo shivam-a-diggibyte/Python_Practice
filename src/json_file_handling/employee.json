@@ -1,0 +1,11 @@
+{
+    "employee_id": 101,
+    "name": "Shivam",
+    "department": "Python",
+    "skills": [
+        "Python",
+        "SQL",
+        "Git",
+        "Databricks"
+    ]
+}
