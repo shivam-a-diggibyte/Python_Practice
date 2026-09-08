@@ -20,7 +20,6 @@ Python_Practice/
     ├── OOPS/                   # Classes, objects, attributes, and core OOP concepts
     ├── Modules/                # Built-in modules (math, random, datetime) and custom modules
     ├── Utilities_Package/      # Reusable utility scripts (e.g. calculator, string helpers)
-    └── main.py                 # Entry-point script
 ```
 
 ## Topics Covered
