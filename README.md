@@ -4,7 +4,7 @@ A training repository for daily Python learning and practice. It contains script
 
 ## About
 
-This repository serves as an ongoing practice log. Each script focuses on a specific concept or exercise, and files are grouped into topic-based folders under `src/`. The goal is to build a structured, easily navigable record of progress — from basic syntax to object-oriented programming and reusable utility modules.
+This repository serves as an ongoing practice log. Each script focuses on a specific concept or exercise, and files are grouped into topic-based folders under `src/`. The goal is to build a structured, easily navigable record of progress, from basic syntax to object-oriented programming and reusable utility modules.
 
 ## Repository Structure
 
@@ -25,23 +25,23 @@ Python_Practice/
 
 ## Topics Covered
 
-| Folder | Description |
-|---|---|
-| `Python_Basics` | Fundamentals — variables, data types, operators, type conversion, strings, syntax |
-| `Conditional_Statements` | Decision-making using `if`, `elif`, and `else`, including nested conditions |
-| `Loops` | Iteration with `for` and `while` loops, `break`/`continue`, and related exercises |
-| `Functions` | Function definitions, parameters, arguments, `*args`/`**kwargs`, scope, and lambda functions |
-| `Data_Structures` | Lists, tuples, sets, and dictionaries, along with common operations on each |
-| `OOPS` | Object-oriented programming basics — classes, objects, and attributes |
-| `Modules` | Working with standard library modules and writing custom modules |
-| `Utilities_Package` | Small, reusable utility scripts packaged for import and reuse |
+| Folder                   | Description                                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------------------------|
+| `Python_Basics`          | Fundamentals — variables, data types, operators, type conversion, strings, syntax            |
+| `Conditional_Statements` | Decision-making using `if`, `elif`, and `else`, including nested conditions                  |
+| `Loops`                  | Iteration with `for` and `while` loops, `break`/`continue`, and related exercises             |
+| `Functions`              | Function definitions, parameters, arguments, `*args`/`**kwargs`, scope, and lambda functions |
+| `Data_Structures`        | Lists, tuples, sets, and dictionaries, along with common operations on each                  |
+| `OOPS`                   | Object-oriented programming basics — classes, objects, and attributes                        |
+| `Modules`                | Working with standard library modules and writing custom modules                             |
+| `Utilities_Package`      | Small, reusable utility scripts packaged for import and reuse                                |
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.8 or later installed on your system
-- Use VS Code with python extension
+- A code editor such as VS Code with the Python extension
 
 ### Clone the Repository
 
@@ -74,11 +74,19 @@ python variables.py
 - [x] Data Structures (Lists, Tuples, Dictionaries, Sets)
 - [x] Modules and Packages
 - [x] OOP Concepts
-- [ ] File Handling
-- [ ] Error and Exception Handling
-- [ ] Advanced OOP (Inheritance, Polymorphism, Encapsulation)
+- [x] File Handling
+- [x] Error and Exception Handling
+- [x] Advanced OOP (Inheritance, Polymorphism, Encapsulation)
+
+## Contributing
+
+This is a personal practice repository, but suggestions and corrections are welcome. Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is intended for personal learning purposes. No formal license has been applied.
 
 ## Author
 
 **shivam-a-diggibyte**
-Maintained as part of ongoing, Python training.
+Maintained as part of ongoing Python training.
